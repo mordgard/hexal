@@ -99,7 +99,7 @@ h1 {
 
 .hexal {
   display: inline-block;
-  height: 205px;
+  height: 206px;
   width: 178px;
   transform: rotate(60deg);
   overflow: hidden;
@@ -196,22 +196,78 @@ h1 {
 .row-native, .row-translate {
   display: flex;
   justify-content: space-around;
-  width: 820px;
+  /* width: 820px; */
 }
 
 .row-native {
-  width: 820px;
-  padding: 0 10px;
+  width: 822px;
+  padding: 0 15px;
 }
 
 .row-translate {
   width: 980px;
   justify-content: space-between;
   position: relative;
-  top: -32px;
+  padding: 0 5px;
+  top: -35px;
 }
 
 .row-native:last-child {
   position: relative;
-  top: -65px;
+  top: -70px;
 }
+
+.main-content {
+  position: relative;
+  border: 1px solid #fff0;
+}
+
+.line {
+  position: absolute;
+}
+
+.line-top-left, .line-top-right {
+  width: 410px;
+  height: 1px;
+  background: #e4e9eb;
+  top: 10px;
+}
+
+.line-top-left {
+  left: 30px;
+}
+
+.line-top-right {
+  left: 580px;
+}
+
+.line-middle-upper-left, .line-middle-upper-right {
+  background: #e4e9eb;
+  height: 102px;
+  width: 1px;
+  top: 142px;
+}
+
+.line-middle-upper-left {
+  left: 101px;
+}
+
+.line-middle-upper-right {
+  right: 101px;
+}
+
+.line-middle-bottom-left, .line-middle-bottom-right {
+  background: #e4e9eb;
+  height: 102px;
+  width: 1px;
+  top: 484px;
+}
+
+.line-middle-bottom-left {
+  left: 101px;
+}
+
+.line-middle-bottom-right {
+  right: 101px;
+}
+
