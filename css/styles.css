@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Maven Pro', sans-serif; */
+  /*  font-family: 'Lato', sans-serif; */ 
+}
+
+body {
+  font-family: 'Lato', 'Maven Pro', sans-serif;
+}
+
+h1 {
+  text-indent: -9999px;
+  position: absolute;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.site-header {
+  height: 63px;
+  background: #323232;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.site-header::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 26px 45px 0 45px;
+  border-color: #323232 transparent transparent transparent;
+  position: absolute;
+  top: 62px;
+  left: 464px;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.nav-link:first-child {
+  margin-left: 1px;
+}
+
+.nav-link:hover {
+  color: #2eaa91;
+  transition: 0.2s;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-logo {
+  width: 64px;
+  height: 55px;
+  background: url(../assets/Logo.png) no-repeat;
+  background-size: cover;
+  margin: 3px 28px 0px 29px;
+}
+
+.header-nav {
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+
+.nav-dot {
+  width: 2px;
+  height: 2px;
+  background: #474c5f;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+
+.hex-container {
+  width: 990px;
+  margin: 0 auto;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexal {
+  display: inline-block;
+  height: 205px;
+  width: 178px;
+  transform: rotate(60deg);
+  overflow: hidden;
+  visibility: hidden;
+  transform: rotate(60deg);
+  transition: 2s;
+}
+
+.hexal-layer-one {
+  height: 100%;
+  width: 100%;
+  transform: rotate(60deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hexal-layer-two {
+  height: 100%;
+  width: 100%;
+  transform: rotate(240deg);
+  visibility: visible;
+}
+
+.hexal:hover {
+  transform: rotate(420deg);
+  transition: 0.3s;
+}
+
+.hex-1 {
+  background: url(../assets/hex1.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-2 {
+  background: url(../assets/hex2.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-3 {
+  background: url(../assets/hex3.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-4 {
+  background: url(../assets/hex4.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-5 {
+  background: url(../assets/hex5.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-6 {
+  background: url(../assets/hex6.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-7 {
+  background: url(../assets/hex7.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-8 {
+  background: url(../assets/hex8.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-9 {
+  background: url(../assets/hex9.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-10 {
+  background: url(../assets/hex10.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-11 {
+  background: url(../assets/hex11.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-12 {
+  background: url(../assets/hex12.png) no-repeat;
+  background-size: cover;
+}
+
+.hex-13 {
+  background: url(../assets/hex13.png) no-repeat;
+  background-size: cover;
+}
+
+.row-native, .row-translate {
+  display: flex;
+  justify-content: space-around;
+  width: 820px;
+}
+
+.row-native {
+  width: 820px;
+  padding: 0 10px;
+}
+
+.row-translate {
+  width: 980px;
+  justify-content: space-between;
+  position: relative;
+  top: -32px;
+}
+
+.row-native:last-child {
+  position: relative;
+  top: -65px;
+}
