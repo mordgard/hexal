@@ -405,37 +405,20 @@ ul {
   padding: 0;
   width: 24px;
   height: 24px;
-  background-color: #6ccbbe;
+  background-color: #a5dbd4;
+  transition: 0.5s;
 }
 
 .social-links:hover {
-  background: rgb(108, 203, 190);
-  /* opacity: 0.1; */
+  background-color: #6ccbbe;
+  transition: 0.5s;
 }
 
-.dribble-link {
-  background-image: url('../assets/dribbble-icon.svg');
-  background-size: cover;
-}
-
-.facebook-link {
-  background: url('../assets/fb-icon.svg') no-repeat;
-  background-size: cover;
-}
-
-.twitter-link {
-  background: url('../assets/tw-icon.svg') no-repeat;
-  background-size: cover;
-}
-
-.gplus-link {
-  background: url('../assets/gplus-icon.svg') no-repeat;
-  background-size: cover;
-}
-
-.lenkedin-link {
-  background: url('../assets/in-icon.svg') no-repeat;
-  background-size: cover;
+.soc-icon {
+  display: inline-block;
+  color: #00ab94;
+  height: 100%;
+  margin-top: 2px;
 }
 
 .wrapper .line {
